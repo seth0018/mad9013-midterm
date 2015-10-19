@@ -162,18 +162,22 @@ img {
         
     }
     
-    main.content {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-        width:50%;
-        float:left;
+    
     }
     aside.side {
         width:25%;
         float:right;
         border-left:1px solid #eee;
     }
+    
+    main.content {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        width:50%;
+        float:left;
+    
+    
     img.right{
         float:none;
         margin:0.27rem 0 0 0;
