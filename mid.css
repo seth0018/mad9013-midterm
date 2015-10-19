@@ -1,0 +1,242 @@
+@@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+
+*{
+    padding:0; 
+    margin:0; 
+    box-sizing:border-box;
+    background-color: #CDFBFE;
+}
+
+
+
+html 
+
+
+{
+    font-size: 1em;
+    background-color: #CDFBFE;
+}
+
+
+
+body
+ {
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 380;
+  line-height: 1.5;
+  color: #000000;
+}
+
+
+
+p
+
+
+ {
+    margin-bottom: 1.1rem;
+    text-align:justify;
+    line-height:1.75rem;
+}
+
+
+h1 
+
+
+{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:#FE1300;
+    
+}
+
+
+h2
+
+{
+    color:#FE1300;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+
+h3
+
+{
+ color: #FE1300;
+ font-size: 28px;
+}
+
+
+header.masthead
+ {
+    padding:1.1rem;
+    background-image: url("http://lorempixel.com/600/400/cats/");
+    background-size: 100% 100%;
+}
+
+
+nav.mainnav ul 
+{
+    list-style:none;
+
+}
+
+
+nav.mainnav ul li a:hover {
+    background:#000000;
+}
+main.content {
+    padding:.3rem;
+}
+
+
+nav.mainnav ul li a 
+{
+    display:block;
+    padding:1.1rem;
+    text-decoration:none;
+    font-weight:720;
+    background:#B63210;
+    color:#FFFFFF;
+    text-align: center;
+    border-bottom:1px solid #FFFFFF;
+    
+}
+
+
+
+img.left{
+    float:left;
+
+}
+
+img.right{
+    float:right;
+
+}
+
+
+footer.footer {
+    clear:both;
+    padding:1.1rem;
+    color:#FE1300;
+    background: #CDFBFE;
+}
+
+
+img {
+    max-width:100%;
+}
+
+
+
+
+@media all and (min-width: 60em){
+    
+    aside.side p {font-size: 0.8rem;}
+    
+    h1
+    {
+        
+        white-space: nowrap;
+    }
+    
+    div.wrapper {
+    
+        margin: 0 auto;
+        max-width:1500px;
+    }
+    
+    header.masthead, footer.footer {
+        padding:1.1rem;
+    }
+    
+    nav.mainnav ul {
+        width:25%;
+        float:left;
+        
+    }
+    
+    main.content {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        width:50%;
+        float:left;
+    }
+    aside.side {
+        width:25%;
+        float:right;
+        border-left:1px solid #eee;
+    }
+    img.right{
+        float:none;
+        margin:0.27rem 0 0 0;
+    }
+    img.left{
+        float:none;
+        margin:0.27rem 0 0 0;
+    }
+}/
+
+
+
+
+@media all and (max-width: 60em) and (min-width: 35em){
+   
+    .masthead
+{
+         margin-bottom: 1.5%;
+        width: 100%;
+     
+}
+
+
+    .mainnav ul li
+
+{
+        display: inline-block;
+        float: left;
+        width: 30%;
+        margin-bottom: 1.3%;
+    
+    }
+
+
+    .mainnav ul li a{
+        padding: 1.3% 0;
+    }
+
+
+    .content{
+        float: left;
+        width: 63%;
+    }
+
+    .primary{
+        margin-bottom: 2.3%;
+    }
+
+    .secondary{
+        margin-bottom: 2.3%;
+    }
+
+    .side{
+        float: right;
+        width: 35%;
+        margin: 0;
+    }
+
+    .footer{
+        
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
